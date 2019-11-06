@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./bootstrap/js/jquery.js"></script>
+    <style>
+        body {
+            margin: 0;
+            background-color: #e1e0c7;
+        }
+
+        header {
+            width: 100%;
+            height: 50px;
+            background-color: #5d6146;
+        }
+
+        span {
+            display: inline-block;
+        }
+
+        .content {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        h2 {
+            display: inline-block;
+            margin: 0;
+            color: #f0efe2;
+            line-height: 50px;
+            margin-right: 20px;
+        }
+
+        header span a {
+            color: #f0efe2;
+            font-size: 15px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        header input {
+            width: 270px;
+            height: 30px;
+            box-sizing: border-box;
+            padding-left: 10px;
+            margin-top: 10px;
+        }
+
+        main {
+            width: 1000px;
+            margin: 0 auto;
+            height: 400px;
+        }
+
+        main .left {
+            width: 670px;
+            /* height: 400px; */
+            /* border: 1px solid #000; */
+            margin-right: 20px;
+        }
+
+        main .sons {
+            margin-top: 30px;
+            background-color: #f0efe2;
+        }
+
+        main .sons .cont {
+            height: auto;
+            clear: both;
+            margin-top: 15px;
+            font-size: 14px;
+            margin-left: 20px;
+            margin-right: 20px;
+            line-height: 200%;
+        }
+
+        main .sons .cont p {
+            line-height: 200%;
+            position: relative;
+            top: 15px;
+
+        }
+
+        main .sons .cont span {
+            float: right;
+            padding: 0 6px;
+            border: 2px solid #9e9e9d;
+            border-radius: 50%;
+            margin-right: 10px;
+            color: #9e9e9d;
+            font-size: 18px;
+        }
+
+        main .sons .cont .footer {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        
+        div.content div.pull-right {
+            width: 300px;
+        }
+        div.son {
+            height: auto;
+            width: 298px;
+            margin-top: 20px;
+            float: left;
+            background-color: #F0EFE2;
+            overflow: hidden;
+            border: 1px solid #C8C7BC;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+        div.son div.title {
+            height: 25px;
+            line-height: 25px;
+            clear: both;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-left: 20px;
+            overflow: hidden;
+            box-sizing: border-box;
+            padding-left: 5px;
+            border-left: 3px solid #A2C241;
+        }
+
+        div.son div.cont {
+            height: auto;
+            clear: both;
+            overflow: hidden;
+            padding-bottom: 20px;
+        }
+
+        div.son div.cont>a {
+            font-size: 14px;
+            height: 22px;
+            line-height: 22px;
+            width: 70px;
+            float: left;
+            margin-top: 15px;
+            margin-left: 20px;
+            text-align: center;
+            border: 1px solid #DAD9D1;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+        footer {
+            color: #999999;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        b {
+            font-size: 18px;
+            line-height: 22px;
+            color: #19537D;
+        }
+
+        img {
+            width: 18px;
+            margin-left: 20px;
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="content">
+            <h2>古诗文网</h2>
+            <span><a href="">推荐</a></span>
+            <span><a href="">诗文</a></span>
+            <span><a href="">名句</a></span>
+            <span><a href="">作者</a></span>
+            <span><a href="">古籍</a></span>
+            <span><a href="">我的</a></span>
+            <span><a href="">手机版</a></span>
+            <input class="right" type="text" placeholder="搜索">
+        </div>
+    </header>
+    <main>
+        <div class="left">
+            <div class="sons">
+                <div class="cont">
+                    <p>
+                        <b>静夜思</b>
+                        <span>译</span>
+                        <span>注</span>
+                        <span>赏</span>
+                        <span>背</span>
+                    </p>
+                    <p style="color: #65645F;">唐代:李白</p>
+                    <div class="main">
+                        床前明月光，疑是地上霜。
+                        <br>
+                        举头望明月，低头思故乡
+                    </div>
+                    <div class="footer">
+                        <img src="./shoucang.png" alt="">
+                        <img src="./download.png" alt="">
+                        <img src="./copy.png" alt="">
+                    </div>
+                    <footer>唐诗三百首，小学古诗，月亮，思乡，早教，小学生必背古诗70首，小学生必背古诗80首</footer>
+                </div>
+
+            </div>
+            <div class="sons">
+                <div class="cont">
+                    <p>
+                        <b>静夜思</b>
+                        <span>译</span>
+                        <span>注</span>
+                        <span>赏</span>
+                        <span>背</span>
+                    </p>
+                    <p style="color: #65645F;">唐代:李白</p>
+                    <div class="main">
+                        床前明月光，疑是地上霜。
+                        <br>
+                        举头望明月，低头思故乡
+                    </div>
+                    <div class="footer">
+                        <img src="./shoucang.png" alt="">
+                        <img src="./download.png" alt="">
+                        <img src="./copy.png" alt="">
+                    </div>
+                    <footer>唐诗三百首，小学古诗，月亮，思乡，早教，小学生必背古诗70首，小学生必背古诗80首</footer>
+                </div>
+
+            </div>
+            <div class="sons">
+                <div class="cont">
+                    <p>
+                        <b>静夜思</b>
+                        <span>译</span>
+                        <span>注</span>
+                        <span>赏</span>
+                        <span>背</span>
+                    </p>
+                    <p style="color: #65645F;">唐代:李白</p>
+                    <div class="main">
+                        床前明月光，疑是地上霜。
+                        <br>
+                        举头望明月，低头思故乡
+                    </div>
+                    <div class="footer">
+                        <img src="./shoucang.png" alt="">
+                        <img src="./download.png" alt="">
+                        <img src="./copy.png" alt="">
+                    </div>
+                    <footer>唐诗三百首，小学古诗，月亮，思乡，早教，小学生必背古诗70首，小学生必背古诗80首</footer>
+                </div>
+
+            </div>
+            <div class="sons">
+                <div class="cont">
+                    <p>
+                        <b>静夜思</b>
+                        <span>译</span>
+                        <span>注</span>
+                        <span>赏</span>
+                        <span>背</span>
+                    </p>
+                    <p style="color: #65645F;">唐代:李白</p>
+                    <div class="main">
+                        床前明月光，疑是地上霜。
+                        <br>
+                        举头望明月，低头思故乡
+                    </div>
+                    <div class="footer">
+                        <img src="./shoucang.png" alt="">
+                        <img src="./download.png" alt="">
+                        <img src="./copy.png" alt="">
+                    </div>
+                    <footer>唐诗三百首，小学古诗，月亮，思乡，早教，小学生必背古诗70首，小学生必背古诗80首</footer>
+                </div>
+
+            </div>
+            <div class="sons">
+                <div class="cont">
+                    <p>
+                        <b>静夜思</b>
+                        <span>译</span>
+                        <span>注</span>
+                        <span>赏</span>
+                        <span>背</span>
+                    </p>
+                    <p style="color: #65645F;">唐代:李白</p>
+                    <div class="main">
+                        床前明月光，疑是地上霜。
+                        <br>
+                        举头望明月，低头思故乡
+                    </div>
+                    <div class="footer">
+                        <img src="./shoucang.png" alt="">
+                        <img src="./download.png" alt="">
+                        <img src="./copy.png" alt="">
+                    </div>
+                    <footer>唐诗三百首，小学古诗，月亮，思乡，早教，小学生必背古诗70首，小学生必背古诗80首</footer>
+                </div>
+
+            </div>
+        </div>
+        <div class="pull-right">
+            <div class="son">
+                <div class="title">主题</div>
+                <div class="cont">
+                    <a href="">抒情</a>
+                    <a href="">四季</a>
+                    <a href="">山水</a>
+                    <a href="">天气</a>
+                    <a href="">人物</a>
+                    <a href="">人生</a>
+                    <a href="">生活</a>
+                    <a href="">节日</a>
+                    <a href="">动物</a>
+                    <a href="">植物</a>
+                    <a href="">食物</a>
+                    <a href="">古籍</a>
+                </div>
+            </div>
+
+
+
+            <div class="son">
+                <div class="title">分类</div>
+                <div class="cont">
+                    <a href="">爱情</a>
+                    <a href="">友情</a>
+                    <a href="">离别</a>
+                    <a href="">思念</a>
+                    <a href="">思乡</a>
+                    <a href="">伤感</a>
+                    <a href="">孤独</a>
+                    <a href="">闺怨</a>
+                    <a href="">悼亡</a>
+                    <a href="">怀古</a>
+                    <a href="">爱国</a>
+                    <a href="">感恩</a>
+                    <a href="">春天</a>
+                    <a href="">夏天</a>
+                    <a href="">秋天</a>
+                    <a href="">冬天</a>
+                    <a href="">庐山</a>
+                    <a href="">泰山</a>
+                    <a href="">江河</a>
+                    <a href="">长江</a>
+                    <a href="">黄河</a>
+                    <a href="">西湖</a>
+                    <a href="">瀑布</a>
+                    <a href="">写风</a>
+                    <a href="">爱情</a>
+                    <a href="">友情</a>
+                    <a href="">离别</a>
+                    <a href="">思念</a>
+                    <a href="">思乡</a>
+                    <a href="">伤感</a>
+                    <a href="">孤独</a>
+                    <a href="">闺怨</a>
+                    <a href="">悼亡</a>
+                    <a href="">怀古</a>
+                    <a href="">爱国</a>
+                    <a href="">感恩</a>
+                    <a href="">春天</a>
+                    <a href="">夏天</a>
+                    <a href="">秋天</a>
+                    <a href="">冬天</a>
+                    <a href="">庐山</a>
+                    <a href="">泰山</a>
+                    <a href="">江河</a>
+                    <a href="">长江</a>
+                    <a href="">黄河</a>
+                    <a href="">西湖</a>
+                    <a href="">瀑布</a>
+                    <a href="">写风</a>
+                    <a href="">爱情</a>
+                    <a href="">友情</a>
+                    <a href="">离别</a>
+                    <a href="">思念</a>
+                    <a href="">思乡</a>
+                    <a href="">伤感</a>
+                    <a href="">孤独</a>
+                    <a href="">闺怨</a>
+                    <a href="">悼亡</a>
+                    <a href="">怀古</a>
+                    <a href="">爱国</a>
+                    <a href="">感恩</a>
+                    <a href="">春天</a>
+                    <a href="">夏天</a>
+                    <a href="">秋天</a>
+                    <a href="">冬天</a>
+                    <a href="">庐山</a>
+                    <a href="">泰山</a>
+                    <a href="">江河</a>
+                    <a href="">长江</a>
+                    <a href="">黄河</a>
+                    <a href="">西湖</a>
+                    <a href="">瀑布</a>
+                    <a href="">写风</a>
+                    <a href="">爱情</a>
+                    <a href="">友情</a>
+                    <a href="">离别</a>
+                    <a href="">思念</a>
+                    <a href="">思乡</a>
+                    <a href="">伤感</a>
+                    <a href="">孤独</a>
+                    <a href="">闺怨</a>
+                    <a href="">悼亡</a>
+                    <a href="">怀古</a>
+                    <a href="">爱国</a>
+                    <a href="">感恩</a>
+                    <a href="">春天</a>
+                    <a href="">夏天</a>
+                    <a href="">秋天</a>
+                    <a href="">冬天</a>
+                    <a href="">庐山</a>
+                    <a href="">泰山</a>
+                    <a href="">江河</a>
+                    <a href="">长江</a>
+                    <a href="">黄河</a>
+                    <a href="">西湖</a>
+                    <a href="">瀑布</a>
+                    <a href="">写风</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
