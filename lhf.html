@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+            body {
+                margin: 0;
+            }
+    
+            header {
+                width: 100%;
+                height: 50px;
+                background-color: #5d6146;
+            }
+    
+            span {
+                display: inline-block;
+            }
+    
+            .content {
+                width: 1000px;
+                margin: 0 auto;
+            }
+    
+            .left {
+                float: left;
+            }
+    
+            .right {
+                float: right;
+            }
+    
+            h2 {
+                display: inline-block;
+                margin: 0;
+                color: #f0efe2;
+                line-height: 50px;
+                margin-right: 20px;
+            }
+    
+            header span a {
+                color: #f0efe2;
+                font-size: 15px;
+                margin: 0 10px;
+                text-decoration: none;
+            }
+    
+            header input {
+                width: 270px;
+                height: 30px;
+                box-sizing: border-box;
+                padding-left: 10px;
+                margin-top: 10px;
+            }
+            body{
+                background-color:#e1e0c7;
+            }
+            main .title{
+                background-color: #f0efe2;
+                border: 1px solid gainsboro;
+                border-radius: 5px;
+                margin-top: 10px;
+                position: relative;
+            }
+            main .title div:nth-of-type(1){
+                width: 80%;
+                margin: 0 auto;
+                border-bottom: 1px solid gainsboro;
+                height: 50px;
+                line-height: 50px;
+            }
+            main .title div:nth-of-type(1) span:nth-of-type(1){
+                font-weight: bold;
+                font-size: 18px;
+            }
+            main .title div:nth-of-type(2){
+                width: 80%;
+                margin: 0 auto;
+                height: 50px;
+                line-height: 50px;
+            }
+            main .title div:nth-of-type(2) ul{
+                display: flex;
+                list-style: none;
+                position: absolute;
+                top: 36px;
+                left: 150px;
+            }
+            main .title div:nth-of-type(2) ul li{
+                margin: 0 5px 0 5px;
+            }
+            main .title div:nth-of-type(2) ul a{
+               text-decoration: none;
+               color: #19537d;
+            }
+            main .title div:nth-of-type(2) ul li a:hover{
+               border-bottom: 1px solid #19537d; 
+            }
+            main .poet{
+                background-color: #f0efe2;
+            }
+            .pl{
+                float: left;
+            }
+            .pr{
+                float:right;
+            }
+            .clearfix{
+                clear: both;
+            }
+        </style>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <h2>古诗文网</h2>
+            <span><a href="">推荐</a></span>
+            <span><a href="">诗文</a></span>
+            <span><a href="">名句</a></span>
+            <span><a href="">作者</a></span>
+            <span><a href="">古籍</a></span>
+            <span><a href="">我的</a></span>
+            <span><a href="">手机版</a></span>
+            <input class="right" type="text" placeholder="搜索">
+        </div>
+    </header>
+    <main class="content">
+        <section class="left">
+            <div class="title">
+                <div>
+                    <span class="pl">不限</span>
+                    <span class="pr">1/100</span>
+                    <div class="clearfix"></div>
+                </div>
+                <div>
+                    <span>朝代 :</span>
+                    <ul>
+                        <li style="color: red;">不限</li>
+                        <li><a href="">先秦</a></li>
+                        <li><a href="">两汉</a></li>
+                        <li><a href="">魏晋</a></li>
+                        <li><a href="">南北朝</a></li>
+                        <li><a href="">隋代</a></li>
+                        <li><a href="">唐代</a></li>
+                        <li><a href="">五代</a></li>
+                        <li><a href="">宋代</a></li>
+                        <li><a href="">金朝</a></li>
+                        <li><a href="">元代</a></li>
+                        <li><a href="">明代</a></li>
+                        <li><a href="">清代</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="poet">
+                <h3>李白</h3>
+                <div>
+                    <span>李白（701年－762年），字太白，号青莲居士，唐朝浪漫主义诗人，被后人誉为“诗仙”。祖籍陇西成纪(待考)，出生于西域碎叶城，4岁再随父迁至剑南道绵州。李白存世诗文千余篇，有《李太白集》传世。762年病逝，享年61岁。其墓在今安徽当涂，四川江油、湖北安陆有纪念馆</span>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="right">
+            <div>
+                <h2>作者</h2>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+        </section> -->
+    </main>
+</body>
+</html>
